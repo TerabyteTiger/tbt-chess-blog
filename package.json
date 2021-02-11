@@ -1,0 +1,13 @@
+{
+  "name": "tbt-chess",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "chess.js": "^0.11.0",
+    "gridsome": "^0.7.0"
+  }
+}
