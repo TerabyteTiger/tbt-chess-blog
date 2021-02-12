@@ -1,9 +1,9 @@
 <template>
   <div :class="theme">
-    <div class="header">
+    <div class="chessHeader">
       <b>{{ whitePlayer }} vs. {{ blackPlayer }}</b>
       <br />
-      {{ event }}
+      <i>{{ event }}</i>
     </div>
     <div class="flex-board">
       <div class="board">
@@ -326,13 +326,10 @@ export default {
 span {
   padding: 2px;
 }
-.header {
+.chessHeader {
   font-size: 1.2rem;
   padding: 7px;
-}
-
-.header * {
-  margin: auto;
+  text-align: center;
 }
 
 .comments {

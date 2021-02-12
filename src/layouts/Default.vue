@@ -9,6 +9,7 @@
       </div>
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
+        <g-link class="nav__link" to="/games/">Games</g-link>
         <g-link class="nav__link" to="/about/">About</g-link>
       </nav>
     </header>

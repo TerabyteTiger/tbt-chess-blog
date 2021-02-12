@@ -5,6 +5,16 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
-  plugins: []
-}
+  siteName: "Gridsome",
+  plugins: [
+    {
+      use: "@gridsome/vue-remark",
+      options: {
+        typeName: "Games",
+        baseDir: "./Posts/Games/",
+        pathPrefix: "/games",
+        template: "./src/templates/GamePost.vue",
+      },
+    },
+  ],
+};
